@@ -1,0 +1,23 @@
+{
+  "repository": "Fully-Powered-AI/customer-support-capability-templates",
+  "title": "Customer Support",
+  "term": "functions/customer-support-and-service",
+  "capabilities": [
+    {
+      "id": "customer-reply-drafting",
+      "name": "Customer reply drafting",
+      "version": "0.1.0",
+      "summary": "Every customer gets the reply your best person would write. Hand over the customer's message, your tone guide and your approved answers, and get back a draft in your voice where every statement and every promise traces to something you approved. A person on your team reads it, edits it and sends it.",
+      "path": "customer-reply-drafting/",
+      "directory": "https://fullypowered.ai/capabilities/customer-reply-drafting/"
+    },
+    {
+      "id": "support-ticket-triage",
+      "name": "Support ticket triage",
+      "version": "0.1.0",
+      "summary": "Your queue manager opens the morning’s tickets already sorted: each one with a category, a priority and a route, and the reason for all three in a line. The tickets that cannot wait sit at the top, stopped for a person to decide.",
+      "path": "support-ticket-triage/",
+      "directory": "https://fullypowered.ai/capabilities/support-ticket-triage/"
+    }
+  ]
+}

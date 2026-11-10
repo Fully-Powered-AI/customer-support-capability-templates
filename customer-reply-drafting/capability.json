@@ -1,0 +1,57 @@
+{
+  "id": "customer-reply-drafting",
+  "name": "Customer reply drafting",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Every customer gets the reply your best person would write. Hand over the customer's message, your tone guide and your approved answers, and get back a draft in your voice where every statement and every promise traces to something you approved. A person on your team reads it, edits it and sends it.",
+  "directory": "https://fullypowered.ai/capabilities/customer-reply-drafting/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service",
+    "functions/customer-success-and-account-management"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/ecommerce-and-retail",
+    "industries/professional-services",
+    "industries/hospitality"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "client-status-update-preparation",
+    "inquiry-handoff",
+    "account-handoff"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: approved material as the only authority, every promise traced to the rule that allows it, and a person who sends."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "customer-support/skills/draft-response",
+      "licence": "Apache-2.0",
+      "contribution": "The method this template adapts: establish the situation, channel and relationship first; fit the tone to the situation; build a reply that acknowledges, answers, gives next steps and closes; size it to the channel; hand it over with private notes for the sender; and name the situations that go to someone senior before a reply. The writing defaults used when a tone guide is silent also follow its guidance: first person for the sender's own commitments, the customer's own terms, specific dates, no passing of blame, and shorter replies for chat than for email.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    }
+  ]
+}

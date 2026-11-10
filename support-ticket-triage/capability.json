@@ -1,0 +1,64 @@
+{
+  "id": "support-ticket-triage",
+  "name": "Support ticket triage",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Your queue manager opens the morning’s tickets already sorted: each one with a category, a priority and a route, and the reason for all three in a line. The tickets that cannot wait sit at the top, stopped for a person to decide.",
+  "directory": "https://fullypowered.ai/capabilities/support-ticket-triage/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "sop-exception-capture",
+    "pilot-acceptance-test-preparation",
+    "customer-reply-drafting"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own working guide for triage from a queue export against a team's written rules."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "customer-support/skills/ticket-triage",
+      "licence": "Apache-2.0",
+      "contribution": "The order of the triage work: read the whole ticket, categorize by cause, set a priority from impact and urgency, check for duplicates and known issues, then route with a reason. The invented rule set in the worked example is modelled on this source's category list, its four-level priority ladder (P1 to P4) and its first-reply targets (1 hour, 4 hours, 1 working day, 2 working days), and on its frontline, senior, billing and product routes.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "customer-support/skills/customer-escalation",
+      "licence": "Apache-2.0",
+      "contribution": "The idea that some tickets leave ordinary support on stated conditions (security, breadth, a customer at risk, a pattern across tickets) and that the person receiving one needs who is affected, since when, what is known and what is not. The worked example's rules that raise a ticket past its reply target and treat the same fault in three or more tickets as a pattern follow this source's triggers.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    }
+  ]
+}
