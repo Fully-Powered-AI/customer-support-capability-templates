@@ -13,8 +13,8 @@ Use it when a customer complains about an order or asks for money back, a replac
 Do not use it:
 
 - when there is no written policy. Without one, the draft would be inventing the organization's terms; the owner says what to offer first;
-- for a general question that asks for no remedy; [Customer reply drafting](/capabilities/customer-reply-drafting/) handles those;
-- to sort or route a whole queue of tickets; that is [Support ticket triage](/capabilities/support-ticket-triage/);
+- for a general question that asks for no remedy; Customer reply drafting handles those;
+- to sort or route a whole queue of tickets; that is Support ticket triage;
 - to judge what a consumer protection law entitles the customer to. If the customer cites a law, a regulator or their statutory rights, the stop conditions below apply;
 - for a complaint about an injury, an illness, a safety problem or exposed personal data. Those go to the role your settings name.
 
