@@ -22,7 +22,8 @@
   "related": [
     "client-status-update-preparation",
     "inquiry-handoff",
-    "account-handoff"
+    "account-handoff",
+    "support-ticket-triage"
   ],
   "evidence": {
     "written_by": "Fully Powered AI",

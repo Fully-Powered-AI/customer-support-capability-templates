@@ -149,11 +149,9 @@ If either is not done, do not send this wording.
 Review first: Ren, support lead, reads the draft before it goes (A5).
 Confirm: "Monday 9 November" is two business days counted from the
 send day, Thursday 5 November. If Ren's reading moves the reply to
-Friday 6 November, both places become Tuesday 10 November. Check the support calendar for a
-company holiday in the count.
+Friday 6 November, both places become Tuesday 10 November. Check the
+support calendar for a company holiday in the count.
 Promises in this draft:
-- The refund reaches the card in 5 to 7 business days, owned by Jo, who
-  issues it. Allowed by A1, in its wording.
 - A reply on the free month by Monday 9 November, owned by Jo. Allowed
   by A2 (say when she will hear) and A4 (two business days). It is a
   promise of a reply, not of Ren's decision. Record it on ticket 4471.
@@ -161,6 +159,8 @@ Promises in this draft:
   Allowed by A4. Record it on ticket 4471.
 - Adding Priya to the waitlist notify list if she says yes, owned by
   Jo. Allowed by A3.
+- The refund reaching the card in 5 to 7 business days is not Jo's to
+  control, so it is not listed as a promise; it stays in A1's wording.
 Not said, and why:
 - No free month is offered or hinted at (A2).
 - Nothing says attendance can or cannot be exported, and the schedule
@@ -182,8 +182,9 @@ Questions for Ren:
 Tone guide check: rule 1, first names, "I" and "we": applied. Rule 2:
 the refund opens the reply. Rule 3: one apology, for charging twice.
 Rule 4: no exclamation marks, no barred words. Rule 5: every date as
-day and date, no barred words. Rule 6: 135 words against a limit of
-180. Rule 7: signed "Jo", then "Company T support".
+day and date, no barred words. Rule 6: 135 words from the greeting to
+the sign-off, not counting the subject line, against a limit of 180.
+Rule 7: signed "Jo", then "Company T support".
 After sending: Jo records the promises on ticket 4471 (A4) and writes
 to Priya by Monday 9 November on the free month and attendance export.
 Jo adds her to the notify list only if she says yes.

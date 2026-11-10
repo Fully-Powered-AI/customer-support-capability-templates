@@ -22,10 +22,10 @@ and return the draft.
 You will receive: the customer's message with its channel and date; the
 earlier thread, if any; checked facts about the account; the tone guide;
 the approved answers; the sender's name and limits, the day the reply
-is expected to go, the review period
-for approved answers, and the situations that need a second reader. If
-the message or the approved answers are missing, stop and ask. If the
-tone guide is missing, use the defaults in step 6 and say so.
+is expected to go, the review period for approved answers, and the
+situations that need a second reader. If the message or the approved
+answers are missing, stop and ask. If the tone guide is missing, use
+the defaults in step 6 and say so.
 
 1. Number every question, request, complaint, statement of fact and
    passing remark in the message, in the customer's order, close to
@@ -53,6 +53,10 @@ tone guide is missing, use the defaults in step 6 and say so.
    - Noted: the reply does not respond to it unless an approved answer
      says how. If the settings send that kind of remark to a second
      reader, write "Noted: [role] reads first" with the rule.
+   A deadline the customer sets, such as "sorted this week", is not
+   Answered because part of what they asked will be done by then.
+   Unless an approved answer or setting allows a promise to meet it,
+   promise nothing about it and say so under "Not said, and why".
 4. Acknowledge a Confirmed statement by saying what the source shows,
    and no more. Do not call an earlier reply or action right or wrong
    unless a checked fact or an approved answer does; raise it as a
@@ -68,10 +72,13 @@ tone guide is missing, use the defaults in step 6 and say so.
    the company got it wrong; things called what the customer calls
    them; "I" for the sender's own actions, "we" for the company; a day
    and date on every commitment, never "soon"; fault not passed to a
-   colleague, a system or the customer.
+   colleague, a system or the customer. A tone guide rule on how dates
+   are written applies to every date in the reply, past dates included.
 7. Build the reply in four parts: acknowledge; answer or news, most
    important first; what happens next, each action with its owner and
-   day and date; a short close. Keep to the tone guide's length limit
+   day and date; a short close. Where the tone guide or the defaults
+   put the answer first, the acknowledgement follows the answer or is
+   folded into it. Keep to the tone guide's length limit
    for the channel. If it gives none: chat up to 60 words, ticket reply
    up to 120 words, email up to 200 words.
 8. List every promise in the draft with its date, owner and the approved
@@ -86,7 +93,9 @@ tone guide is missing, use the defaults in step 6 and say so.
    was counted from.
 9. If the wording assumes an action not yet done, such as a refund or a
    request the reply says has been passed on, put each one under "Do
-   first".
+   first". "Do first" holds only actions the reply's wording says are
+   already done; recording a promise, or anything else due once the
+   reply has gone, goes under "After sending".
 10. Fill in every "Before sending" line. "Tone guide check" names each
     rule of the tone guide and how the draft meets it, with the word
     count against the limit. "After sending" gives each follow-up with
@@ -94,7 +103,8 @@ tone guide is missing, use the defaults in step 6 and say so.
 
 Stop conditions. If the customer mentions a lawyer, a regulator, a
 claim, the press, a card dispute, an injury, a health or safety problem,
-or exposed personal data, write no answer on that matter. List the
+or exposed personal data, or asks for their data to be deleted or
+supplied, write no answer on that matter. List the
 points, name the role in the settings, and draft only a received-and-
 who-will-reply acknowledgement if the settings allow one. Give no health
 or safety guidance and make no statement about responsibility for a
@@ -118,7 +128,7 @@ Channel: [email | ticket | chat]. Situation: [main situation]. Tone: [tone guide
 Sources: [tone guide, date]; [approved answers, review date, and whether inside the review period]; account facts checked by [role], [date].
 
 WHAT THE CUSTOMER RAISED
-[n]. [The point, close to the customer's words.] [One result, from the line that fits the kind of point:]
+[n]. [The point, close to the customer's words.] [One result, from the line that fits the kind of point; the kind itself is not printed:]
      question, request or complaint: [Answered from [source] | Held: [what is missing] | Declined under [source] | For [role] to decide ([source])]
      statement of fact: [Confirmed by [source]: [what it shows] | Cannot be checked: [what the sources show, if anything]]
      passing remark: [Noted | Noted: [role] reads first ([rule])]

@@ -49,8 +49,8 @@ from when it arrived, not from when it was raised.
 ROUTES
 - Frontline: how-to questions; any ticket that matches a known issue with
   a posted workaround or answer.
-- Senior support: faults that need investigating, integration, account
-  access, data.
+- Senior support: faults not matched to a known issue, integration,
+  account access, data.
 - Billing desk: refunds, double charges, invoice changes.
 - Product inbox: requests. A request inside another ticket is copied there
   by the agent who takes the ticket.
@@ -106,7 +106,7 @@ The sheet is plain text. It is set here with bold type and bullets so it reads w
 
 Tickets in the export: 10. Stopped for a decision: 5, in 3 items. Ready to route: 4. Duplicates: 1. Could not be triaged: 0.
 
-Rules: version 6. Known issues: as of Friday 6 November 2026.
+Rules: version 6. Known issues: Friday 6 November 2026.
 
 **STOPPED FOR A DECISION**
 
@@ -153,7 +153,6 @@ Rules: version 6. Known issues: as of Friday 6 November 2026.
   - Known issue: KI-14. Posted workaround: Settings > Calendar > Sync now.
 - **T-4182** | Billing | P3 | Billing desk | First reply due Monday 9 November, 18:00
   - Why: “two charges of \$49 on 1 November. Please refund one” is a billing problem on one account (Billing, P3). Refunds and double charges go to the Billing desk. Arrived Saturday, so the clock started Monday at 08:00.
-  - See Duplicates: T-4189.
 - **T-4186** | How-to | P4 | Frontline | First reply due Tuesday 10 November, 18:00
   - Why: “How do I add her so clients can book with her?” asks how to do something the product does (How-to; questions are P4). How-to questions go to Frontline. Arrived Saturday, so the clock started Monday at 08:00.
 - **T-4190** | Fault | P4 | Frontline | First reply due Wednesday 11 November, 09:01

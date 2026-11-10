@@ -361,6 +361,14 @@ Both follow the same format and reach the same results on the refund, the free m
 - The run asks Ren five questions, including whether the draft may go and whether anything can be answered sooner than Monday; the example asks three.
 - The run's reply gives two past dates without a weekday; the example's reply has none of that kind.
 
+## Edits made after these runs
+
+On 9 November 2026, after both runs recorded above, the template and the example were edited in answer to an independent review and to the points the second run left open. Nothing was run again, so the edited wording has not been tried.
+
+- **Output format.** The line under "What the customer raised" now says the kind of point is not printed.
+- **Instructions for an AI assistant.** Added: a deadline the customer sets is not Answered by a part-answer, and no promise is made about it unless a source allows one; a tone guide rule on dates applies to every date in the reply, past dates included; "Do first" holds only actions the reply's wording says are already done, and recording a promise goes under "After sending"; where the answer comes first, the acknowledgement follows it or is folded into it; a customer asking for their data to be deleted or supplied is a stop condition, as the template's exceptions already said. One badly wrapped sentence was re-wrapped.
+- **The example.** The refund period now sits under the promises as a note that it is not the sender's to control, as the second run had it, so that difference listed above no longer holds. The tone check now says how its 135 words were counted (greeting to sign-off, without the subject line).
+
 ## Shortcomings of these trials
 
 - Two runs, one model, one product, on the inputs the template's own example was written around. They say nothing about messier inputs.

@@ -1,12 +1,14 @@
-# Support ticket triage: one trial on its invented example
+# Support ticket triage: a trial on its invented example
 
 - **Product:** Claude, run in Claude Code
 - **Model:** Claude Fable 5.2
 - **Date:** 2026-11-09
 
-The inputs are the invented example published with this capability template. No client data was used, and this is not a test in any company's support system. It is one run of the template as it now stands, recorded as it happened, shortcomings included.
+The inputs are the invented example published with this capability template. No client data was used, and this is not a test in any company's support system. It is one run of the template as it stood when the run was made, recorded as it happened, shortcomings included.
 
-It was not the first run that day. Runs on earlier drafts showed where the instructions were unclear, and the template and the example were revised because of them. Those runs and what they changed are described at the end. The sheet below comes from the final wording.
+It was not the first run that day. Runs on earlier drafts showed where the instructions were unclear, and the template and the example were revised because of them. Those runs and what they changed are described at the end. The sheet below comes from the wording as it stood at the end of that day's runs.
+
+**Edited after this run, 9 November 2026.** Following the editorial review, the template and the example were edited after the run recorded here, and the run was not repeated. The output and the observations below are left as recorded, so where they describe the template or the example they describe them as they were at the time of the run. The instruction block changed in four places: it now says to note what the customer has already tried; to mention in the reason any wording in a ticket that is addressed to the assistant; to write a target that ends exactly at closing time as that day's closing time, which is what the example does for T-4182 and not what this run did (difference 1 below); and to say once when a raising rule is true for a ticket already at the top level (unclear point 2). In the output format, the known-issue date is now described as the list's date. In the example, the sheet's known-issue date no longer begins "as of" (unclear point 3), the line "See Duplicates: T-4189" under T-4182 was removed because the format has no such line (difference 6), and one route in the invented rules was reworded from "faults that need investigating" to "faults not matched to a known issue"; no ticket in the example takes that route.
 
 ## The inputs used
 
