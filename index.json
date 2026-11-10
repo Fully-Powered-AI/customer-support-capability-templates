@@ -28,6 +28,14 @@
       "directory": "https://fullypowered.ai/capabilities/help-article-from-a-resolved-issue/"
     },
     {
+      "id": "support-service-level-definition",
+      "name": "Support service level definition",
+      "version": "0.1.0",
+      "summary": "The support lead gets reply and resolution targets for every priority level, worked out from the team's own ticket history and the hours the team really has. Each target shows how often the team already meets it, and every gap comes back as a question for the lead to settle.",
+      "path": "support-service-level-definition/",
+      "directory": "https://fullypowered.ai/capabilities/support-service-level-definition/"
+    },
+    {
       "id": "support-ticket-triage",
       "name": "Support ticket triage",
       "version": "0.1.0",

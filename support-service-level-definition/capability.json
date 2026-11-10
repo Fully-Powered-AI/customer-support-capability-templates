@@ -1,0 +1,75 @@
+{
+  "id": "support-service-level-definition",
+  "name": "Support service level definition",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The support lead gets reply and resolution targets for every priority level, worked out from the team's own ticket history and the hours the team really has. Each target shows how often the team already meets it, and every gap comes back as a question for the lead to settle.",
+  "directory": "https://fullypowered.ai/capabilities/support-service-level-definition/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/ecommerce-and-retail",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "support-ticket-triage",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own method for setting internal support targets from a team's export: a fixed position rule and a ladder of steps, a minimum count, wanted targets tested against the record, a stop on unmatched columns, estimated work from the lead's minutes checked week by week against the roster, and questions for the lead in place of recommendations."
+    },
+    {
+      "kind": "third-party",
+      "repository": "LeadMagic/gtm-skills",
+      "commit": "2b7ec0f9e7044f46e4c77b536f486303fd863e28",
+      "path": "skills/customer-success/sla-management/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Separate first-response and resolution targets for each priority level; the first reply counts only when a person writes it; each target set at a pace the team can keep up week after week; a narrow top level; a longer watch for the highest level than for the rest; a share of tickets each target is meant for; and raising an open ticket part-way through its target.",
+      "text_reused": false,
+      "notice": "notices/LeadMagic-gtm-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "operations/skills/capacity-plan/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Counting only the hours people truly have once meetings, other work and leave are taken out, looking ahead for leave and closed days, and never planning those hours to their limit.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "path": "business-operations/skills/capacity-planner/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Planning against a busy week rather than the average one, a ceiling of about 80% on the load of queued work, and agreeing in advance what happens in the busiest weeks.",
+      "text_reused": false,
+      "notice": "notices/alirezarezvani-claude-skills-LICENSE.txt"
+    }
+  ]
+}
