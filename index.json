@@ -28,12 +28,36 @@
       "directory": "https://fullypowered.ai/capabilities/customer-reply-drafting/"
     },
     {
+      "id": "customer-satisfaction-detractor-follow-up",
+      "name": "Customer satisfaction detractor follow-up",
+      "version": "0.1.0",
+      "summary": "Every week your support lead gets each low satisfaction or recommendation score with the ticket behind it: the customer's own words, what went wrong as far as the ticket shows, a suggested owner and a draft message, plus the trend and a warning wherever the numbers are too thin to read. A person sends every message.",
+      "path": "customer-satisfaction-detractor-follow-up/",
+      "directory": "https://fullypowered.ai/capabilities/customer-satisfaction-detractor-follow-up/"
+    },
+    {
       "id": "help-article-from-a-resolved-issue",
       "name": "Help article from a resolved issue",
       "version": "0.1.0",
       "summary": "Turn every answer your team works out once into an article the next customer finds on their own. Hand over a resolved ticket and your list of articles; get back a draft in your customers' words, with their details removed and every step traced to the ticket. Your knowledge-base owner decides what goes live.",
       "path": "help-article-from-a-resolved-issue/",
       "directory": "https://fullypowered.ai/capabilities/help-article-from-a-resolved-issue/"
+    },
+    {
+      "id": "product-recall-customer-contact-plan",
+      "name": "Product recall customer contact plan",
+      "version": "0.1.0",
+      "summary": "Once your business has issued a recall, the customer care lead gets the contact plan: affected customers from the order export, the approved notice word for word, drafts that offer only the remedies you run, and a tracker that counts a customer done only when the item is back or repaired.",
+      "path": "product-recall-customer-contact-plan/",
+      "directory": "https://fullypowered.ai/capabilities/product-recall-customer-contact-plan/"
+    },
+    {
+      "id": "stale-ticket-sweep",
+      "name": "Stale ticket sweep",
+      "version": "0.1.0",
+      "summary": "Once a week the support lead gets one sheet of what the queue is hiding: tickets with no real activity past their limit, tickets left waiting on the customer with the three ways out of each, likely duplicates, and each person's load weighed by size and age. A person makes every move.",
+      "path": "stale-ticket-sweep/",
+      "directory": "https://fullypowered.ai/capabilities/stale-ticket-sweep/"
     },
     {
       "id": "support-service-level-definition",

@@ -1,0 +1,57 @@
+{
+  "id": "customer-satisfaction-detractor-follow-up",
+  "name": "Customer satisfaction detractor follow-up",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Every week your support lead gets each low satisfaction or recommendation score with the ticket behind it: the customer's own words, what went wrong as far as the ticket shows, a suggested owner and a draft message, plus the trend and a warning wherever the numbers are too thin to read. A person sends every message.",
+  "directory": "https://fullypowered.ai/capabilities/customer-satisfaction-detractor-follow-up/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service",
+    "functions/customer-success-and-account-management"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/professional-services",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "customer-feedback-themes",
+    "complaint-and-refund-request-handling",
+    "churn-risk-and-save-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The weekly low-score follow-up for a support lead: cut-offs for a low score, what went wrong told from dated ticket events, ordered owner rules with copies, repeats and open follow-ups from the log, the four-week comparison rule, limits on draft messages, items lifted out for a person at once, default column headers with a stop on any mismatch, and the acceptance tests."
+    },
+    {
+      "kind": "third-party",
+      "repository": "WYRE-AI/msp-claude-plugins",
+      "commit": "ddb512615b481fe793a13422006b7bd97347a0d1",
+      "path": "msp-claude-plugins/crewhu/crewhu/skills/surveys/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "A call-back list built from each unhappy response with its full comment, its credited technician and a suggested next step; about three months of weekly scores rather than one week; figures on fewer than ten answers treated as too thin to conclude from; worded answers without a score kept out of the figures; answer counts printed beside rates; satisfied answers and promoters counted beside the unhappy ones; dates put in one time zone; acting on a bad score left to people outside the survey system.",
+      "text_reused": false,
+      "notice": "notices/WYRE-AI-msp-claude-plugins-LICENSE.txt"
+    }
+  ]
+}

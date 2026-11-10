@@ -1,0 +1,57 @@
+{
+  "id": "product-recall-customer-contact-plan",
+  "name": "Product recall customer contact plan",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Once your business has issued a recall, the customer care lead gets the contact plan: affected customers from the order export, the approved notice word for word, drafts that offer only the remedies you run, and a tracker that counts a customer done only when the item is back or repaired.",
+  "directory": "https://fullypowered.ai/capabilities/product-recall-customer-contact-plan/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/consumer-brands",
+    "industries/ecommerce-and-retail",
+    "industries/manufacturing",
+    "industries/hardware-and-physical-technology"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "complaint-and-refund-request-handling",
+    "customer-reply-drafting",
+    "support-ticket-triage"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: the business's own approved record as the only authority, every unclear case written as a question for a named role, and a person who approves, contacts and records."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CALLE-AI/awesome-phone-call-agents",
+      "commit": "14ab8d21081ead9063a6af5f86804bc9cdafb626",
+      "path": "skills/recall-outreach/SKILL.md",
+      "licence": "MIT",
+      "contribution": "The recall phoning method this template adapts from automated calls to a contact plan worked by people: relay only signed-off wording and the remedies the business runs; answer only from cleared answers and pass the rest to a person; no hazard advice or comfort; confirm the customer before naming the purchase; nothing about the product on a voicemail; no payment details; record what became of the item; separate a plain no-answer from a call needing a person; and never count a contact as a finished recall, with each measure on its own base. The boundary notes and worked outcomes behind these ideas are in the same package, references/safety.md and references/examples.md, same repository, commit and licence.",
+      "text_reused": false,
+      "notice": "notices/CALLE-AI-awesome-phone-call-agents-LICENSE.txt"
+    }
+  ]
+}
