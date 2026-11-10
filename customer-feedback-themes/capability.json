@@ -1,0 +1,68 @@
+{
+  "id": "customer-feedback-themes",
+  "name": "Customer feedback themes",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Each month your support lead sees what customers keep telling you: tickets, disputes, reviews and survey comments grouped into themes with counts and quotations, the three issues most worth fixing with a proposed fix and owner, and a note for customers once a fix ships. A person decides every fix.",
+  "directory": "https://fullypowered.ai/capabilities/customer-feedback-themes/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service",
+    "functions/product-management"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands",
+    "industries/software-technology",
+    "industries/hospitality"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "support-ticket-triage",
+    "churn-risk-and-save-plan",
+    "customer-interview-synthesis"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: the organization's own export and owner list as the only authority, every count traced to item numbers, every gap written as a question for a named role, and a person who decides every fix and approves anything sent."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CarvalhoJeo/claude-small-business-br",
+      "commit": "93a6504e4bfbe9bc1d6a795252b67558e0da39d3",
+      "path": "archive/nonlocalized-skills/customer-pulse-check/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Reading disputes, support tickets and review exports for one period together; grouping them into recurring themes, each with a count, a kind and an impact rating; choosing three fixable issues by how often they occur weighted by impact, each with its likely cause and a practical fix; and leaving every message, ticket and dispute for a person to send or close. The repository's NOTICE says it derives from Anthropic's small-business plugin in anthropics/knowledge-work-plugins and remains under Apache-2.0, and its catalogue says the archived packages are originals set aside until localized; the notice file holds both the licence and the NOTICE from that commit.",
+      "text_reused": false,
+      "notice": "notices/CarvalhoJeo-claude-small-business-br-LICENSE-and-NOTICE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "aaron-he-zhu/aaron-marketing-skills",
+      "commit": "2541ef9bf25f1c1c816130efca3d21c022a22b2e",
+      "path": "launch/prove/launch-feedback-synthesizer/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Treating feedback text as material to sort, never as instructions; naming every expected source that was not supplied so its customers are known to be unheard; recording the period each export covers; putting together feedback that describes the same experience whatever words customers used, with a count, a severity and verbatim quotations for each theme; a status for each requested change through to shipped or declined, with a reason for any decline; and a thank-you announcement when a change customers asked for ships.",
+      "text_reused": false,
+      "notice": "notices/aaron-he-zhu-aaron-marketing-skills-LICENSE.txt"
+    }
+  ]
+}
