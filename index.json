@@ -4,12 +4,28 @@
   "term": "functions/customer-support-and-service",
   "capabilities": [
     {
+      "id": "complaint-and-refund-request-handling",
+      "name": "Complaint and refund request handling",
+      "version": "0.1.0",
+      "summary": "A customer complains or asks for money back, and whoever handles it gets your policy's answer: the order matched, each condition checked, the amount worked out, any refund set out for a named person to approve, and a reply ready to edit and send.",
+      "path": "complaint-and-refund-request-handling/",
+      "directory": "https://fullypowered.ai/capabilities/complaint-and-refund-request-handling/"
+    },
+    {
       "id": "customer-reply-drafting",
       "name": "Customer reply drafting",
       "version": "0.1.0",
       "summary": "Every customer gets the reply your best person would write. Hand over the customer's message, your tone guide and your approved answers, and get back a draft in your voice where every statement and every promise traces to something you approved. A person on your team reads it, edits it and sends it.",
       "path": "customer-reply-drafting/",
       "directory": "https://fullypowered.ai/capabilities/customer-reply-drafting/"
+    },
+    {
+      "id": "help-article-from-a-resolved-issue",
+      "name": "Help article from a resolved issue",
+      "version": "0.1.0",
+      "summary": "Turn every answer your team works out once into an article the next customer finds on their own. Hand over a resolved ticket and your list of articles; get back a draft in your customers' words, with their details removed and every step traced to the ticket. Your knowledge-base owner decides what goes live.",
+      "path": "help-article-from-a-resolved-issue/",
+      "directory": "https://fullypowered.ai/capabilities/help-article-from-a-resolved-issue/"
     },
     {
       "id": "support-ticket-triage",

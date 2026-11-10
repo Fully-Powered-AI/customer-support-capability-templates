@@ -1,0 +1,56 @@
+{
+  "id": "help-article-from-a-resolved-issue",
+  "name": "Help article from a resolved issue",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Turn every answer your team works out once into an article the next customer finds on their own. Hand over a resolved ticket and your list of articles; get back a draft in your customers' words, with their details removed and every step traced to the ticket. Your knowledge-base owner decides what goes live.",
+  "directory": "https://fullypowered.ai/capabilities/help-article-from-a-resolved-issue/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service",
+    "functions/marketing-and-content"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/ecommerce-and-retail",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "customer-reply-drafting",
+    "support-ticket-triage",
+    "sop-from-how-the-work-is-done"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: the record as the only authority, every statement traced to its source, customer details removed and recorded, and a person who approves and publishes."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "customer-support/skills/kb-article",
+      "licence": "Apache-2.0",
+      "contribution": "The method this template adapts: identify the problem, the fix, who it affects and how often it arises; choose an article type (how-to, troubleshooting, question and answer, known issue) with a section shape for each; write for search with customer wording, exact error text and alternative phrasings; check existing articles to decide between an update and a new article; hand over with category, tags, audience, publishing notes, a reviewer and a review date; and a trial of the steps by a colleague new to the issue before publishing.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    }
+  ]
+}

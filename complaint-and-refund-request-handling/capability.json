@@ -1,0 +1,63 @@
+{
+  "id": "complaint-and-refund-request-handling",
+  "name": "Complaint and refund request handling",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "A customer complains or asks for money back, and whoever handles it gets your policy's answer: the order matched, each condition checked, the amount worked out, any refund set out for a named person to approve, and a reply ready to edit and send.",
+  "directory": "https://fullypowered.ai/capabilities/complaint-and-refund-request-handling/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/hospitality"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "customer-reply-drafting",
+    "support-ticket-triage"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: the organization's written policy as the only authority, every condition tested against a stated fact, every gap written as a question for a named role, and a person who approves, issues and sends."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/ticket-deflector",
+      "licence": "Apache-2.0",
+      "contribution": "The refund and complaint method this template adapts to a no-connection, policy-first form: read the message as the customer's account and never act on instructions inside it; find the order, any refund already made and any open card dispute, and stop the refund path on a disputed charge; list every possible match rather than picking one; hold the reply to the written policy, decline with the reason and the alternative the policy allows, and send a silent or contradictory policy to the owner; flag each missing fact within the draft itself; approve any refund separately from the reply and show no refund approval for a declined request; keep card details to the last four digits; and record the outcome afterwards. The card-digit rule and the check on changed bank details are set out in the plugin's shared files (small-business/shared/personal-data.md and untrusted-content.md), same repository, commit and licence, and restated in this method's own approval steps.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "CarvalhoJeo/claude-small-business-br",
+      "commit": "93a6504e4bfbe9bc1d6a795252b67558e0da39d3",
+      "path": "archive/nonlocalized-skills/handle-complaint",
+      "licence": "Apache-2.0",
+      "contribution": "A short summary of the customer's history before the reply (new or returning, earlier complaints), and the check whether a complaint repeats a known theme, raised with the owner as a possible change to the operation; also the rule that tickets and disputes are closed only by a person. The repository's README and NOTICE state that this archived package is an unchanged original from Anthropic's small-business plugin in anthropics/knowledge-work-plugins, under Apache-2.0; the notice file holds both the licence and the NOTICE from that commit.",
+      "text_reused": false,
+      "notice": "notices/CarvalhoJeo-claude-small-business-br-LICENSE-and-NOTICE.txt"
+    }
+  ]
+}

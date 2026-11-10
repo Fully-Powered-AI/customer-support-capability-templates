@@ -2,11 +2,13 @@
 
 Every customer answered the way your best agent would answer. These capability templates take the replies and triage that fill a support queue and give an AI assistant a precise way to prepare them from your own approved answers, so your people send faster and escalate sooner.
 
-This repository holds 2 capability templates for support and service teams. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 4 capability templates for support and service teams. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The capabilities
 
+- **[Complaint and refund request handling](complaint-and-refund-request-handling/)**: A customer complains or asks for money back, and whoever handles it gets your policy's answer: the order matched, each condition checked, the amount worked out, any refund set out for a named person to approve, and a reply ready to edit and send.
 - **[Customer reply drafting](customer-reply-drafting/)**: Every customer gets the reply your best person would write. Hand over the customer's message, your tone guide and your approved answers, and get back a draft in your voice where every statement and every promise traces to something you approved. A person on your team reads it, edits it and sends it.
+- **[Help article from a resolved issue](help-article-from-a-resolved-issue/)**: Turn every answer your team works out once into an article the next customer finds on their own. Hand over a resolved ticket and your list of articles; get back a draft in your customers' words, with their details removed and every step traced to the ticket. Your knowledge-base owner decides what goes live.
 - **[Support ticket triage](support-ticket-triage/)**: Your queue manager opens the morning’s tickets already sorted: each one with a category, a priority and a route, and the reason for all three in a line. The tickets that cannot wait sit at the top, stopped for a person to decide.
 
 ## How to use one
