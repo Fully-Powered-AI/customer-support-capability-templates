@@ -44,6 +44,14 @@
       "directory": "https://fullypowered.ai/capabilities/help-article-from-a-resolved-issue/"
     },
     {
+      "id": "help-centre-gap-review",
+      "name": "Help centre gap review",
+      "version": "0.1.0",
+      "summary": "Once a period, your support lead sees what the help centre is missing, read from that period's tickets and search log: questions agents answered by hand, articles that fell short, articles search could not find, and one gap list ranked by the tickets an article could have saved. The lead decides what is written.",
+      "path": "help-centre-gap-review/",
+      "directory": "https://fullypowered.ai/capabilities/help-centre-gap-review/"
+    },
+    {
       "id": "product-recall-customer-contact-plan",
       "name": "Product recall customer contact plan",
       "version": "0.1.0",
@@ -58,6 +66,14 @@
       "summary": "Once a week the support lead gets one sheet of what the queue is hiding: tickets with no real activity past their limit, tickets left waiting on the customer with the three ways out of each, likely duplicates, and each person's load weighed by size and age. A person makes every move.",
       "path": "stale-ticket-sweep/",
       "directory": "https://fullypowered.ai/capabilities/stale-ticket-sweep/"
+    },
+    {
+      "id": "support-escalation-brief",
+      "name": "Support escalation brief",
+      "version": "0.1.0",
+      "summary": "When a support case must move to a specialist or manager, the support lead gets one brief: the customer's impact, a dated timeline from the ticket history, the evidence, the fixes tried, the workaround in place and the decision needed. Nothing goes to the customer.",
+      "path": "support-escalation-brief/",
+      "directory": "https://fullypowered.ai/capabilities/support-escalation-brief/"
     },
     {
       "id": "support-service-level-definition",

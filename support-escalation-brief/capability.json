@@ -1,0 +1,47 @@
+{
+  "id": "support-escalation-brief",
+  "name": "Support escalation brief",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a support case must move to a specialist or manager, the support lead gets one brief: the customer's impact, a dated timeline from the ticket history, the evidence, the fixes tried, the workaround in place and the decision needed. Nothing goes to the customer.",
+  "directory": "https://fullypowered.ai/capabilities/support-escalation-brief/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/ecommerce-and-retail",
+    "industries/professional-services",
+    "industries/hospitality"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "support-ticket-triage",
+    "stale-ticket-sweep",
+    "customer-reply-drafting"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own method for turning one ticket's history into a hand-over brief: a fixed history export with a stop on any heading or entry type that does not match, a dated timeline that keeps only entries carrying a fact, an action or a promise, every claim labelled as stated by the customer, confirmed by the team or not verified, an evidence checklist, fixes tried, the workaround and its limits, promises made to the customer, conflicts left open, a check against the escalation policy's criteria as written, and a decision needed that the support lead confirms."
+    }
+  ]
+}
