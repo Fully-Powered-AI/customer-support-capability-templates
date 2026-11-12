@@ -1,6 +1,6 @@
 # Stale ticket sweep
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,8 +12,8 @@ Use it once a week at a fixed time, and again before a holiday, when someone goe
 
 Do not use it:
 
-- to sort new tickets into categories, priorities and routes. That is the triage capability, run on the unassigned queue;
-- to set or change the team's reply and resolution targets. That is the service level capability; this sweep uses the team's limits as given;
+- to sort new tickets into categories, priorities and routes. That is the triage workflow template, run on the unassigned queue;
+- to set or change the team's reply and resolution targets. That is the service level workflow template; this sweep uses the team's limits as given;
 - to write the reminder or reply to a customer. That is separate work, done by the ticket's owner after the lead decides;
 - to judge how well a team member works. The load figures describe the queue on one day, not a person;
 - when the team cannot export its open tickets with dates. The sweep cannot be done from memory or from ticket subjects alone.

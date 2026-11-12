@@ -1,6 +1,6 @@
 # Product recall customer contact plan: an invented example
 
-*Illustrative example with invented data.* The business, the product, the notice, the customers, the people and every record below are invented, and contact details use made-up addresses and numbers. Business R is an invented online shop that sells small furniture for the home. It has recalled one of its folding stools, and its managing director has approved the notice. Eight days into contacting customers, the customer care lead runs the capability again with the care team's contact log and the warehouse's returns log. First come the inputs the care lead supplied, in full, then the plan the capability returned.
+*Illustrative example with invented data.* The business, the product, the notice, the customers, the people and every record below are invented, and contact details use made-up addresses and numbers. Business R is an invented online shop that sells small furniture for the home. It has recalled one of its folding stools, and its managing director has approved the notice. Eight days into contacting customers, the customer care lead runs the workflow template again with the care team's contact log and the warehouse's returns log. First come the inputs the care lead supplied, in full, then the plan the workflow template returned.
 
 ## The inputs
 

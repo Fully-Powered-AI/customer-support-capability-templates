@@ -1,6 +1,6 @@
 # Stale ticket sweep: an invented example
 
-*Illustrative example with invented data.* The company, its customers, its team, the tickets and the dates below are all invented. An invented 40-person company sells and supports till systems for cafés and restaurants. Its support team is four people, Ben, Carla, Dev and Erin, led by a support lead. On Monday 9 November 2026 the support lead exports every open ticket in the Support queue and runs the capability before the team plans its week.
+*Illustrative example with invented data.* The company, its customers, its team, the tickets and the dates below are all invented. An invented 40-person company sells and supports till systems for cafés and restaurants. Its support team is four people, Ben, Carla, Dev and Erin, led by a support lead. On Monday 9 November 2026 the support lead exports every open ticket in the Support queue and runs the workflow template before the team plans its week.
 
 The inputs come first, in full, so the template can be run on them. The sweep follows.
 

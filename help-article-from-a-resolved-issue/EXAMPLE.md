@@ -1,6 +1,6 @@
 # Help article from a resolved issue: an invented example
 
-*Illustrative example with invented data.* The company, the customer, the staff, the tickets, the articles and every document below are invented. Company H is an invented 20-person company that sells time-tracking and invoicing software to small agencies; Client W is an invented customer. First come the inputs the support agent supplied, in full, then the draft the capability returned.
+*Illustrative example with invented data.* The company, the customer, the staff, the tickets, the articles and every document below are invented. Company H is an invented 20-person company that sells time-tracking and invoicing software to small agencies; Client W is an invented customer. First come the inputs the support agent supplied, in full, then the draft the workflow template returned.
 
 ## The inputs
 

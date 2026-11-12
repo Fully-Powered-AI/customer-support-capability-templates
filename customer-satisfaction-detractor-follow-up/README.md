@@ -2,7 +2,7 @@
 
 Every week your support lead gets each low satisfaction or recommendation score with the ticket behind it: the customer's own words, what went wrong as far as the ticket shows, a suggested owner and a draft message, plus the trend and a warning wherever the numbers are too thin to read. A person sends every message.
 
-*Capability template · Customer support and service · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/customer-satisfaction-detractor-follow-up/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/customer-satisfaction-detractor-follow-up/)*
 
 ## The outcome
 
@@ -64,9 +64,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in three runs: the first, by a model that had not written it, found places where the instructions were open; they were closed, and the second run was made on the revised version by the model that revised it; after an independent review the instructions were tightened again, and the third run, recorded with it, was made by that same model in a fresh session that saw only the instructions, the output format and the example's inputs. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in three runs: the first, by a model that had not written it, found places where the instructions were open; they were closed, and the second run was made on the revised version by the model that revised it; after an independent review the instructions were tightened again, and the third run, recorded with it, was made by that same model in a fresh session that saw only the instructions, the output format and the example's inputs. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past week your support lead remembers well, plus hard cases written in advance: a customer who scored low twice in a month, a comment that says they are leaving, a complaint about a bill the ticket says nothing about, a score with no comment, a week with only a handful of answers, a column header the template does not know. The support lead checks every count and every owner before any message goes out. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past week your support lead remembers well, plus hard cases written in advance: a customer who scored low twice in a month, a comment that says they are leaving, a complaint about a bill the ticket says nothing about, a score with no comment, a week with only a handful of answers, a column header the template does not know. The support lead checks every count and every owner before any message goes out. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -77,11 +77,11 @@ Testing in your environment means running it on a past week your support lead re
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -91,12 +91,12 @@ Testing in your environment means running it on a past week your support lead re
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Customer feedback themes](../customer-feedback-themes/)
 - [Complaint and refund request handling](../complaint-and-refund-request-handling/)
-- [Churn risk and save plan](https://fullypowered.ai/capabilities/churn-risk-and-save-plan/)
+- [Churn risk and save plan](https://fullypowered.ai/workflow templates/churn-risk-and-save-plan/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

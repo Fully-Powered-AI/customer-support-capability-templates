@@ -1,10 +1,10 @@
 {
   "id": "customer-satisfaction-detractor-follow-up",
   "name": "Customer satisfaction detractor follow-up",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Every week your support lead gets each low satisfaction or recommendation score with the ticket behind it: the customer's own words, what went wrong as far as the ticket shows, a suggested owner and a draft message, plus the trend and a warning wherever the numbers are too thin to read. A person sends every message.",
-  "directory": "https://fullypowered.ai/capabilities/customer-satisfaction-detractor-follow-up/",
+  "directory": "https://fullypowered.ai/workflow templates/customer-satisfaction-detractor-follow-up/",
   "primary_function": "functions/customer-support-and-service",
   "functions": [
     "functions/customer-support-and-service",

@@ -1,6 +1,6 @@
 # Help article from a resolved issue
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -16,7 +16,7 @@ Do not use it:
 - when the fix was something only your staff can do, such as a refund, a credit, a manual change in an admin tool or a policy exception. That is not something another customer can follow;
 - for a security weakness, exposed personal data or a compromised account. Those go to the role you name, not to a public page;
 - for an outage notice, a release note or a message to many customers at once;
-- to audit or reorganize the whole help centre. This capability writes one article from one issue;
+- to audit or reorganize the whole help centre. This workflow template writes one article from one issue;
 - for anything touching a lawyer, a regulator, an injury or a safety risk.
 
 ## Roles

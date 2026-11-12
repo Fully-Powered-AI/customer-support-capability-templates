@@ -1,10 +1,10 @@
 {
   "id": "customer-feedback-themes",
   "name": "Customer feedback themes",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Each month your support lead sees what customers keep telling you: tickets, disputes, reviews and survey comments grouped into themes with counts and quotations, the three issues most worth fixing with a proposed fix and owner, and a note for customers once a fix ships. A person decides every fix.",
-  "directory": "https://fullypowered.ai/capabilities/customer-feedback-themes/",
+  "directory": "https://fullypowered.ai/workflow templates/customer-feedback-themes/",
   "primary_function": "functions/customer-support-and-service",
   "functions": [
     "functions/customer-support-and-service",

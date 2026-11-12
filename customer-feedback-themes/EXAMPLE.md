@@ -1,6 +1,6 @@
 # Customer feedback themes: an invented example
 
-*Illustrative example with invented data.* The shop, its customers, the feedback, the owner list, the fixes and every number below are invented. Shop A is an invented online shop with 14 staff that sells loose-leaf tea, tea subscriptions and teaware. On Tuesday 3 November 2026 its support lead runs the capability on October's feedback, before taking the report to the operations manager.
+*Illustrative example with invented data.* The shop, its customers, the feedback, the owner list, the fixes and every number below are invented. Shop A is an invented online shop with 14 staff that sells loose-leaf tea, tea subscriptions and teaware. On Tuesday 3 November 2026 its support lead runs the workflow template on October's feedback, before taking the report to the operations manager.
 
 The inputs come first, in full, so the template can be run on them. The report follows.
 

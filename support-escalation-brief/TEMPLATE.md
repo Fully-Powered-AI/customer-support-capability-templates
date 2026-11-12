@@ -1,6 +1,6 @@
 # Support escalation brief
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it once per case, when a person has decided the request cannot be resolved a
 
 Do not use it:
 
-- to sort new tickets into categories, priorities and routes. That is the triage capability;
+- to sort new tickets into categories, priorities and routes. That is the triage workflow template;
 - to find tickets that have stopped moving. That is the stale ticket sweep, which looks at the whole queue; this brief looks at one case;
 - to write the message to the customer. That is customer reply drafting, done by the ticket's owner after the lead decides;
 - to find or test a fix, or to say what caused a fault. The brief reports what has been tried and what the history shows;

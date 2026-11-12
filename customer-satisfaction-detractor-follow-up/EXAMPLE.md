@@ -1,6 +1,6 @@
 # Customer satisfaction detractor follow-up: an invented example
 
-*Illustrative example with invented data.* The business, its customers, its staff, the survey responses, the tickets, the log and every number below are invented. Firm A is an invented IT support company with 25 staff that looks after the computers, networks and printers of small offices. Every ticket it closes sends a one-question satisfaction survey (CSAT, 1 to 5), and some customers also answer a recommendation survey (NPS, 0 to 10). On Monday 9 November 2026 its support lead runs the capability on the week of 2 to 8 November.
+*Illustrative example with invented data.* The business, its customers, its staff, the survey responses, the tickets, the log and every number below are invented. Firm A is an invented IT support company with 25 staff that looks after the computers, networks and printers of small offices. Every ticket it closes sends a one-question satisfaction survey (CSAT, 1 to 5), and some customers also answer a recommendation survey (NPS, 0 to 10). On Monday 9 November 2026 its support lead runs the workflow template on the week of 2 to 8 November.
 
 The inputs come first, in full, so the template can be run on them. The report follows.
 

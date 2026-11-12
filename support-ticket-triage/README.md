@@ -2,7 +2,7 @@
 
 Your queue manager opens the morning’s tickets already sorted: each one with a category, a priority and a route, and the reason for all three in a line. The tickets that cannot wait sit at the top, stopped for a person to decide.
 
-*Capability template · Customer support and service · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/support-ticket-triage/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/support-ticket-triage/)*
 
 ## The outcome
 
@@ -12,7 +12,7 @@ Triage stops where judgment starts. A security report, an outage, a customer who
 
 ## Who starts the work, and when
 
-The queue manager or the agent on triage duty starts it: at the start of a shift, after a weekend, or whenever the unassigned queue has grown past what one person can read carefully. They export the new tickets, run the capability, and check the sheet before anyone acts on it.
+The queue manager or the agent on triage duty starts it: at the start of a shift, after a weekend, or whenever the unassigned queue has grown past what one person can read carefully. They export the new tickets, run the workflow template, and check the sheet before anyone acts on it.
 
 The queue manager accepts or changes each line, assigns the tickets in the support system, and decides every escalation. The assistant assigns nothing, answers no customer and changes no ticket.
 
@@ -45,7 +45,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has to change for your company
 
-- **Write the rules down.** Your categories, your priority definitions with their reply targets, and your routes. The capability applies your rules; it does not bring its own.
+- **Write the rules down.** Your categories, your priority definitions with their reply targets, and your routes. The workflow template applies your rules; it does not bring its own.
 - **Name the escalation conditions and who decides each.** Which conditions stop a ticket, and the role that takes it from there.
 - **Keep the known-issue list current,** with the posted workaround beside each issue.
 - **Decide what the export may contain.** Which columns leave the support system, and which customer details are removed first.
@@ -53,9 +53,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It was tried on its invented example on 9 November 2026 in four runs; the record of the last is published with it, and lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 9 November 2026. It was tried on its invented example on 9 November 2026 in four runs; the record of the last is published with it, and lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past day’s queue your queue manager already knows, plus hard cases written in advance: a security report worded as a how-to question, the same fault in three tickets, a customer writing twice, a ticket your rules do not cover. The queue manager checks every line against the ticket. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past day’s queue your queue manager already knows, plus hard cases written in advance: a security report worded as a how-to question, the same fault in three tickets, a customer writing twice, a ticket your rules do not cover. The queue manager checks every line against the ticket. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -66,11 +66,11 @@ Testing in your environment means running it on a past day’s queue your queue 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -80,12 +80,12 @@ Testing in your environment means running it on a past day’s queue your queue 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [SOP exception capture](https://fullypowered.ai/capabilities/sop-exception-capture/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/)
+- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
 - [Customer reply drafting](../customer-reply-drafting/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

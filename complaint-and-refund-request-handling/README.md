@@ -2,7 +2,7 @@
 
 A customer complains or asks for money back, and whoever handles it gets your policy's answer: the order matched, each condition checked, the amount worked out, any refund set out for a named person to approve, and a reply ready to edit and send.
 
-*Capability template · Customer support and service · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/complaint-and-refund-request-handling/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/complaint-and-refund-request-handling/)*
 
 ## The outcome
 
@@ -45,13 +45,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has to change for your company
 
-Write the refund and return policy down, give each clause a number, and name its owner; the capability adds no terms of its own. Set who may approve which amounts, and who takes the complaints that mention a lawyer, a regulator, a card dispute or an injury. Keep a complaint log with a few fixed categories, and choose the window and the count that make a repeat worth raising. Check that your order export carries the default columns, or tell the assistant your own; for a stay, a meal or a booking, the order record is the booking or the bill, one row per charge, with the date of the stay or visit in place of the delivery date. Decide which customer details the assistant may be shown, on ChatGPT, Claude, Copilot or Gemini. It works from what you paste or upload and needs no connection to your payment system or shop.
+Write the refund and return policy down, give each clause a number, and name its owner; the workflow template adds no terms of its own. Set who may approve which amounts, and who takes the complaints that mention a lawyer, a regulator, a card dispute or an injury. Keep a complaint log with a few fixed categories, and choose the window and the count that make a repeat worth raising. Check that your order export carries the default columns, or tell the assistant your own; for a stay, a meal or a booking, the order record is the booking or the bill, one row per charge, with the date of the stay or visit in place of the delivery date. Decide which customer details the assistant may be shown, on ChatGPT, Claude, Copilot or Gemini. It works from what you paste or upload and needs no connection to your payment system or shop.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It was tried twice on its invented example in Claude on 9 November 2026; the record of the second run, on the instructions as revised after the first, is published with the template. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 9 November 2026. It was tried twice on its invented example in Claude on 9 November 2026; the record of the second run, on the instructions as revised after the first, is published with the template. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on past complaints your team has already settled, plus hard cases written in advance, each with its expected behavior: a request outside the returns window, two orders that could be the one, an open card dispute, a request your policy says nothing about. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record.
+Testing in your environment means running it on past complaints your team has already settled, plus hard cases written in advance, each with its expected behavior: a request outside the returns window, two orders that could be the one, an open card dispute, a request your policy says nothing about. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) builds that test set, and [What we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) shows the record.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -62,11 +62,11 @@ Testing in your environment means running it on past complaints your team has al
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -76,11 +76,11 @@ Testing in your environment means running it on past complaints your team has al
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Customer reply drafting](../customer-reply-drafting/)
 - [Support ticket triage](../support-ticket-triage/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

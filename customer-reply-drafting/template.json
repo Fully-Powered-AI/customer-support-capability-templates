@@ -1,10 +1,10 @@
 {
   "id": "customer-reply-drafting",
   "name": "Customer reply drafting",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Every customer gets the reply your best person would write. Hand over the customer's message, your tone guide and your approved answers, and get back a draft in your voice where every statement and every promise traces to something you approved. A person on your team reads it, edits it and sends it.",
-  "directory": "https://fullypowered.ai/capabilities/customer-reply-drafting/",
+  "directory": "https://fullypowered.ai/workflow templates/customer-reply-drafting/",
   "primary_function": "functions/customer-support-and-service",
   "functions": [
     "functions/customer-support-and-service",

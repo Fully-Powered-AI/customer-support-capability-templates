@@ -1,6 +1,6 @@
 # Support service level definition
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,10 +12,10 @@ Use it when a team sets its targets for the first time, and again whenever somet
 
 Do not use it:
 
-- for any commitment to customers: reply times published on a website, the service levels in a customer's contract, service credits or refunds for slow replies. Those are promises the business makes, with consequences this capability does not weigh. The business decides them separately, with whoever approves its commitments to customers;
+- for any commitment to customers: reply times published on a website, the service levels in a customer's contract, service credits or refunds for slow replies. Those are promises the business makes, with consequences this workflow template does not weigh. The business decides them separately, with whoever approves its commitments to customers;
 - to measure, compare or rank the people on the team. The targets belong to the team as a whole;
 - to decide how many people the team needs. The capacity check shows whether the hours cover the estimated work; what to do about a shortfall is the support lead's decision;
-- when the team has no written priority levels. Write them first: the capability measures levels, it does not invent them;
+- when the team has no written priority levels. Write them first: the workflow template measures levels, it does not invent them;
 - to watch the live queue against the targets. That belongs in the support system, set up by a person once the targets are approved.
 
 ## Roles

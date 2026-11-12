@@ -1,6 +1,6 @@
 # Support service level definition: an invented example
 
-*Illustrative example with invented data.* The company, its team, its tickets, its rules and every figure below are invented. An invented 25-person company sells stock-control software to independent bike shops. Its support team is a support lead and one support specialist, and it has never had written targets. On Monday 9 November 2026 the support lead exports the four full weeks from 5 October to 1 November and runs the capability.
+*Illustrative example with invented data.* The company, its team, its tickets, its rules and every figure below are invented. An invented 25-person company sells stock-control software to independent bike shops. Its support team is a support lead and one support specialist, and it has never had written targets. On Monday 9 November 2026 the support lead exports the four full weeks from 5 October to 1 November and runs the workflow template.
 
 The inputs come first, in full, so the template can be run on them. The proposal follows.
 

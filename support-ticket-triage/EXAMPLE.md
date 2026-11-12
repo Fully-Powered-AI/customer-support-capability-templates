@@ -1,6 +1,6 @@
 # Support ticket triage: an invented example
 
-*Illustrative example with invented data.* The company, its customers, the tickets, the rules and the known issues below are all invented. An invented 45-person company sells booking software to salons and studios. On Monday 9 November 2026 its queue manager exports the ten unassigned tickets that arrived since Thursday and runs the capability before the team picks anything up.
+*Illustrative example with invented data.* The company, its customers, the tickets, the rules and the known issues below are all invented. An invented 45-person company sells booking software to salons and studios. On Monday 9 November 2026 its queue manager exports the ten unassigned tickets that arrived since Thursday and runs the workflow template before the team picks anything up.
 
 The inputs come first, in full, so the template can be run on them. The triage sheet follows.
 

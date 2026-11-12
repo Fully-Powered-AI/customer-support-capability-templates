@@ -4,7 +4,7 @@
 - **Model:** Claude Fable 5.2
 - **Date:** 2026-11-09
 
-This is a record of two runs of the capability template on its own invented example: one on the template as first written, and one after the template and the example were revised in answer to what the first run and an independent review found. The company, the customer, the people and the charges are all invented, and no client data was used. It shows what the template produced on one set of inputs. It is not a test in any company's environment.
+This is a record of two runs of the workflow template on its own invented example: one on the template as first written, and one after the template and the example were revised in answer to what the first run and an independent review found. The company, the customer, the people and the charges are all invented, and no client data was used. It shows what the template produced on one set of inputs. It is not a test in any company's environment.
 
 ## First run: the template as first written
 

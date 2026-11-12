@@ -1,6 +1,6 @@
 # Complaint and refund request handling: an invented example
 
-*Illustrative example with invented data.* The shop, the customer, the people, the orders, the policy and every document below are invented. Shop H is an invented online shop that sells handmade ceramic tableware; Ana owns it and Dev is its service lead. First come the inputs Dev supplied, in full, then what the capability returned.
+*Illustrative example with invented data.* The shop, the customer, the people, the orders, the policy and every document below are invented. Shop H is an invented online shop that sells handmade ceramic tableware; Ana owns it and Dev is its service lead. First come the inputs Dev supplied, in full, then what the workflow template returned.
 
 ## The inputs
 

@@ -4,7 +4,7 @@
 - **Model:** Claude Fable 5.2
 - **Date:** 2026-11-09
 
-The inputs are the invented example published with this capability template. No client data was used, and this is not a test in any company's support system. It is one run of the template as it stood when the run was made, recorded as it happened, shortcomings included.
+The inputs are the invented example published with this workflow template. No client data was used, and this is not a test in any company's support system. It is one run of the template as it stood when the run was made, recorded as it happened, shortcomings included.
 
 It was not the first run that day. Runs on earlier drafts showed where the instructions were unclear, and the template and the example were revised because of them. Those runs and what they changed are described at the end. The sheet below comes from the wording as it stood at the end of that day's runs.
 
