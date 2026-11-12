@@ -2,7 +2,7 @@
 
 Once a week the support lead gets one sheet of what the queue is hiding: tickets with no real activity past their limit, tickets left waiting on the customer with the three ways out of each, likely duplicates, and each person's load weighed by size and age. A person makes every move.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/stale-ticket-sweep/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/stale-ticket-sweep/)*
 
 ## The outcome
 

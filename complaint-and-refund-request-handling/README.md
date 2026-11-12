@@ -2,7 +2,7 @@
 
 A customer complains or asks for money back, and whoever handles it gets your policy's answer: the order matched, each condition checked, the amount worked out, any refund set out for a named person to approve, and a reply ready to edit and send.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/complaint-and-refund-request-handling/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/complaint-and-refund-request-handling/)*
 
 ## The outcome
 

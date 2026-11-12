@@ -2,7 +2,7 @@
 
 Once a period, your support lead sees what the help centre is missing, read from that period's tickets and search log: questions agents answered by hand, articles that fell short, articles search could not find, and one gap list ranked by the tickets an article could have saved. The lead decides what is written.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/help-centre-gap-review/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/help-centre-gap-review/)*
 
 ## The outcome
 

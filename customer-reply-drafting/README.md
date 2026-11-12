@@ -2,7 +2,7 @@
 
 Every customer gets the reply your best person would write. Hand over the customer's message, your tone guide and your approved answers, and get back a draft in your voice where every statement and every promise traces to something you approved. A person on your team reads it, edits it and sends it.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/customer-reply-drafting/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/customer-reply-drafting/)*
 
 ## The outcome
 
@@ -77,9 +77,9 @@ Testing in your environment means running it on past messages your team has alre
 
 ## Related workflow templates
 
-- [Client-status update preparation](https://fullypowered.ai/workflow templates/client-status-update-preparation/)
-- [Inquiry handoff](https://fullypowered.ai/workflow templates/inquiry-handoff/)
-- [Account handoff](https://fullypowered.ai/workflow templates/account-handoff/)
+- [Client-status update preparation](https://fullypowered.ai/workflows/client-status-update-preparation/)
+- [Inquiry handoff](https://fullypowered.ai/workflows/inquiry-handoff/)
+- [Account handoff](https://fullypowered.ai/workflows/account-handoff/)
 - [Support ticket triage](../support-ticket-triage/)
 
 ## Make it yours

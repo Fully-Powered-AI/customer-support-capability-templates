@@ -2,7 +2,7 @@
 
 Once your business has issued a recall, the customer care lead gets the contact plan: affected customers from the order export, the approved notice word for word, drafts that offer only the remedies you run, and a tracker that counts a customer done only when the item is back or repaired.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/product-recall-customer-contact-plan/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/product-recall-customer-contact-plan/)*
 
 ## The outcome
 

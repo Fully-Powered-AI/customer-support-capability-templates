@@ -2,7 +2,7 @@
 
 Each month your support lead sees what customers keep telling you: tickets, disputes, reviews and survey comments grouped into themes with counts and quotations, the three issues most worth fixing with a proposed fix and owner, and a note for customers once a fix ships. A person decides every fix.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/customer-feedback-themes/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/customer-feedback-themes/)*
 
 ## The outcome
 
@@ -92,8 +92,8 @@ Testing in your environment means running it on a past month your support lead r
 ## Related workflow templates
 
 - [Support ticket triage](../support-ticket-triage/)
-- [Churn risk and save plan](https://fullypowered.ai/workflow templates/churn-risk-and-save-plan/)
-- [Customer interview synthesis](https://fullypowered.ai/workflow templates/customer-interview-synthesis/)
+- [Churn risk and save plan](https://fullypowered.ai/workflows/churn-risk-and-save-plan/)
+- [Customer interview synthesis](https://fullypowered.ai/workflows/customer-interview-synthesis/)
 
 ## Make it yours
 

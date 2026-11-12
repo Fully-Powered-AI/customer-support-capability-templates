@@ -9,7 +9,7 @@
       "version": "0.1.0",
       "summary": "A customer complains or asks for money back, and whoever handles it gets your policy's answer: the order matched, each condition checked, the amount worked out, any refund set out for a named person to approve, and a reply ready to edit and send.",
       "path": "complaint-and-refund-request-handling/",
-      "directory": "https://fullypowered.ai/workflow templates/complaint-and-refund-request-handling/"
+      "directory": "https://fullypowered.ai/workflows/complaint-and-refund-request-handling/"
     },
     {
       "id": "customer-feedback-themes",
@@ -17,7 +17,7 @@
       "version": "0.1.0",
       "summary": "Each month your support lead sees what customers keep telling you: tickets, disputes, reviews and survey comments grouped into themes with counts and quotations, the three issues most worth fixing with a proposed fix and owner, and a note for customers once a fix ships. A person decides every fix.",
       "path": "customer-feedback-themes/",
-      "directory": "https://fullypowered.ai/workflow templates/customer-feedback-themes/"
+      "directory": "https://fullypowered.ai/workflows/customer-feedback-themes/"
     },
     {
       "id": "customer-reply-drafting",
@@ -25,7 +25,7 @@
       "version": "0.1.0",
       "summary": "Every customer gets the reply your best person would write. Hand over the customer's message, your tone guide and your approved answers, and get back a draft in your voice where every statement and every promise traces to something you approved. A person on your team reads it, edits it and sends it.",
       "path": "customer-reply-drafting/",
-      "directory": "https://fullypowered.ai/workflow templates/customer-reply-drafting/"
+      "directory": "https://fullypowered.ai/workflows/customer-reply-drafting/"
     },
     {
       "id": "customer-satisfaction-detractor-follow-up",
@@ -33,7 +33,7 @@
       "version": "0.1.0",
       "summary": "Every week your support lead gets each low satisfaction or recommendation score with the ticket behind it: the customer's own words, what went wrong as far as the ticket shows, a suggested owner and a draft message, plus the trend and a warning wherever the numbers are too thin to read. A person sends every message.",
       "path": "customer-satisfaction-detractor-follow-up/",
-      "directory": "https://fullypowered.ai/workflow templates/customer-satisfaction-detractor-follow-up/"
+      "directory": "https://fullypowered.ai/workflows/customer-satisfaction-detractor-follow-up/"
     },
     {
       "id": "help-article-from-a-resolved-issue",
@@ -41,7 +41,7 @@
       "version": "0.1.0",
       "summary": "Turn every answer your team works out once into an article the next customer finds on their own. Hand over a resolved ticket and your list of articles; get back a draft in your customers' words, with their details removed and every step traced to the ticket. Your knowledge-base owner decides what goes live.",
       "path": "help-article-from-a-resolved-issue/",
-      "directory": "https://fullypowered.ai/workflow templates/help-article-from-a-resolved-issue/"
+      "directory": "https://fullypowered.ai/workflows/help-article-from-a-resolved-issue/"
     },
     {
       "id": "help-centre-gap-review",
@@ -49,7 +49,7 @@
       "version": "0.1.0",
       "summary": "Once a period, your support lead sees what the help centre is missing, read from that period's tickets and search log: questions agents answered by hand, articles that fell short, articles search could not find, and one gap list ranked by the tickets an article could have saved. The lead decides what is written.",
       "path": "help-centre-gap-review/",
-      "directory": "https://fullypowered.ai/workflow templates/help-centre-gap-review/"
+      "directory": "https://fullypowered.ai/workflows/help-centre-gap-review/"
     },
     {
       "id": "product-recall-customer-contact-plan",
@@ -57,7 +57,7 @@
       "version": "0.1.0",
       "summary": "Once your business has issued a recall, the customer care lead gets the contact plan: affected customers from the order export, the approved notice word for word, drafts that offer only the remedies you run, and a tracker that counts a customer done only when the item is back or repaired.",
       "path": "product-recall-customer-contact-plan/",
-      "directory": "https://fullypowered.ai/workflow templates/product-recall-customer-contact-plan/"
+      "directory": "https://fullypowered.ai/workflows/product-recall-customer-contact-plan/"
     },
     {
       "id": "stale-ticket-sweep",
@@ -65,7 +65,7 @@
       "version": "0.1.0",
       "summary": "Once a week the support lead gets one sheet of what the queue is hiding: tickets with no real activity past their limit, tickets left waiting on the customer with the three ways out of each, likely duplicates, and each person's load weighed by size and age. A person makes every move.",
       "path": "stale-ticket-sweep/",
-      "directory": "https://fullypowered.ai/workflow templates/stale-ticket-sweep/"
+      "directory": "https://fullypowered.ai/workflows/stale-ticket-sweep/"
     },
     {
       "id": "support-escalation-brief",
@@ -73,7 +73,7 @@
       "version": "0.1.0",
       "summary": "When a support case must move to a specialist or manager, the support lead gets one brief: the customer's impact, a dated timeline from the ticket history, the evidence, the fixes tried, the workaround in place and the decision needed. Nothing goes to the customer.",
       "path": "support-escalation-brief/",
-      "directory": "https://fullypowered.ai/workflow templates/support-escalation-brief/"
+      "directory": "https://fullypowered.ai/workflows/support-escalation-brief/"
     },
     {
       "id": "support-service-level-definition",
@@ -81,7 +81,7 @@
       "version": "0.1.0",
       "summary": "The support lead gets reply and resolution targets for every priority level, worked out from the team's own ticket history and the hours the team really has. Each target shows how often the team already meets it, and every gap comes back as a question for the lead to settle.",
       "path": "support-service-level-definition/",
-      "directory": "https://fullypowered.ai/workflow templates/support-service-level-definition/"
+      "directory": "https://fullypowered.ai/workflows/support-service-level-definition/"
     },
     {
       "id": "support-ticket-triage",
@@ -89,7 +89,7 @@
       "version": "0.1.0",
       "summary": "Your queue manager opens the morning’s tickets already sorted: each one with a category, a priority and a route, and the reason for all three in a line. The tickets that cannot wait sit at the top, stopped for a person to decide.",
       "path": "support-ticket-triage/",
-      "directory": "https://fullypowered.ai/workflow templates/support-ticket-triage/"
+      "directory": "https://fullypowered.ai/workflows/support-ticket-triage/"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The support lead gets reply and resolution targets for every priority level, worked out from the team's own ticket history and the hours the team really has. Each target shows how often the team already meets it, and every gap comes back as a question for the lead to settle.",
-  "directory": "https://fullypowered.ai/workflow templates/support-service-level-definition/",
+  "directory": "https://fullypowered.ai/workflows/support-service-level-definition/",
   "primary_function": "functions/customer-support-and-service",
   "functions": [
     "functions/customer-support-and-service"

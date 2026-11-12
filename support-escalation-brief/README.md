@@ -2,7 +2,7 @@
 
 When a support case must move to a specialist or manager, the support lead gets one brief: the customer's impact, a dated timeline from the ticket history, the evidence, the fixes tried, the workaround in place and the decision needed. Nothing goes to the customer.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/support-escalation-brief/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/support-escalation-brief/)*
 
 ## The outcome
 

@@ -2,7 +2,7 @@
 
 Turn every answer your team works out once into an article the next customer finds on their own. Hand over a resolved ticket and your list of articles; get back a draft in your customers' words, with their details removed and every step traced to the ticket. Your knowledge-base owner decides what goes live.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/help-article-from-a-resolved-issue/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/help-article-from-a-resolved-issue/)*
 
 ## The outcome
 
@@ -81,7 +81,7 @@ Testing in your environment means running it on tickets your team has already tu
 
 - [Customer reply drafting](../customer-reply-drafting/)
 - [Support ticket triage](../support-ticket-triage/)
-- [Write an SOP from how the work is done](https://fullypowered.ai/workflow templates/sop-from-how-the-work-is-done/)
+- [Write an SOP from how the work is done](https://fullypowered.ai/workflows/sop-from-how-the-work-is-done/)
 
 ## Make it yours
 

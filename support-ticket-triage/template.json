@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Your queue manager opens the morning’s tickets already sorted: each one with a category, a priority and a route, and the reason for all three in a line. The tickets that cannot wait sit at the top, stopped for a person to decide.",
-  "directory": "https://fullypowered.ai/workflow templates/support-ticket-triage/",
+  "directory": "https://fullypowered.ai/workflows/support-ticket-triage/",
   "primary_function": "functions/customer-support-and-service",
   "functions": [
     "functions/customer-support-and-service"

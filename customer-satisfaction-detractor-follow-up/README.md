@@ -2,7 +2,7 @@
 
 Every week your support lead gets each low satisfaction or recommendation score with the ticket behind it: the customer's own words, what went wrong as far as the ticket shows, a suggested owner and a draft message, plus the trend and a warning wherever the numbers are too thin to read. A person sends every message.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/customer-satisfaction-detractor-follow-up/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/customer-satisfaction-detractor-follow-up/)*
 
 ## The outcome
 
@@ -95,7 +95,7 @@ Testing in your environment means running it on a past week your support lead re
 
 - [Customer feedback themes](../customer-feedback-themes/)
 - [Complaint and refund request handling](../complaint-and-refund-request-handling/)
-- [Churn risk and save plan](https://fullypowered.ai/workflow templates/churn-risk-and-save-plan/)
+- [Churn risk and save plan](https://fullypowered.ai/workflows/churn-risk-and-save-plan/)
 
 ## Make it yours
 

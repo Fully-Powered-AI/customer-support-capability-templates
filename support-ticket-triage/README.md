@@ -2,7 +2,7 @@
 
 Your queue manager opens the morning’s tickets already sorted: each one with a category, a priority and a route, and the reason for all three in a line. The tickets that cannot wait sit at the top, stopped for a person to decide.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/support-ticket-triage/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/support-ticket-triage/)*
 
 ## The outcome
 
@@ -82,8 +82,8 @@ Testing in your environment means running it on a past day’s queue your queue 
 
 ## Related workflow templates
 
-- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 - [Customer reply drafting](../customer-reply-drafting/)
 
 ## Make it yours

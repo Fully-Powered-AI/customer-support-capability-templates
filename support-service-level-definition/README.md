@@ -2,7 +2,7 @@
 
 The support lead gets reply and resolution targets for every priority level, worked out from the team's own ticket history and the hours the team really has. Each target shows how often the team already meets it, and every gap comes back as a question for the lead to settle.
 
-*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/support-service-level-definition/)*
+*Workflow template · Customer support and service · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/support-service-level-definition/)*
 
 ## The outcome
 
@@ -85,7 +85,7 @@ Testing in your environment means running it on a past month your support lead k
 ## Related workflow templates
 
 - [Support ticket triage](../support-ticket-triage/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 
