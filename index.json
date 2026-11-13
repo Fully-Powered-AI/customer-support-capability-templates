@@ -4,6 +4,14 @@
   "term": "functions/customer-support-and-service",
   "templates": [
     {
+      "id": "call-summary-transcript-check",
+      "name": "Call summary check against the transcript",
+      "version": "0.1.0",
+      "summary": "Before anyone acts on the summary of a service call, your quality lead sees every amount, date, outcome and statement in it that the transcript does not back, each with the line and time to check, and what the summary left out. It changes no record; the reviewer decides what is corrected.",
+      "path": "call-summary-transcript-check/",
+      "directory": "https://fullypowered.ai/workflows/call-summary-transcript-check/"
+    },
+    {
       "id": "complaint-and-refund-request-handling",
       "name": "Complaint and refund request handling",
       "version": "0.1.0",
@@ -52,12 +60,28 @@
       "directory": "https://fullypowered.ai/workflows/help-centre-gap-review/"
     },
     {
+      "id": "known-issues-list-update",
+      "name": "Known-issues list update",
+      "version": "0.1.0",
+      "summary": "When engineering confirms a fault, your support lead gets the known-issues entry drafted from the cases and the engineering note: affected versions, what customers see in their own words, the workaround exactly as tested, the linked cases. Entries a release says are fixed are flagged. A person approves every change.",
+      "path": "known-issues-list-update/",
+      "directory": "https://fullypowered.ai/workflows/known-issues-list-update/"
+    },
+    {
       "id": "product-recall-customer-contact-plan",
       "name": "Product recall customer contact plan",
       "version": "0.1.0",
       "summary": "Once your business has issued a recall, the customer care lead gets the contact plan: affected customers from the order export, the approved notice word for word, drafts that offer only the remedies you run, and a tracker that counts a customer done only when the item is back or repaired.",
       "path": "product-recall-customer-contact-plan/",
       "directory": "https://fullypowered.ai/workflows/product-recall-customer-contact-plan/"
+    },
+    {
+      "id": "service-call-promises-list",
+      "name": "Follow-ups promised on service calls",
+      "version": "0.1.0",
+      "summary": "After service calls, the contact-center team leader gets every follow-up the agent promised, each quoted from its transcript line, with the deadline as said, any condition, who owns it and the record that matches it. Nothing is booked, assigned or sent, and no customer is contacted.",
+      "path": "service-call-promises-list/",
+      "directory": "https://fullypowered.ai/workflows/service-call-promises-list/"
     },
     {
       "id": "stale-ticket-sweep",

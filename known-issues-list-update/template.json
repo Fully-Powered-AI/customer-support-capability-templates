@@ -1,0 +1,46 @@
+{
+  "id": "known-issues-list-update",
+  "name": "Known-issues list update",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "When engineering confirms a fault, your support lead gets the known-issues entry drafted from the cases and the engineering note: affected versions, what customers see in their own words, the workaround exactly as tested, the linked cases. Entries a release says are fixed are flagged. A person approves every change.",
+  "directory": "https://fullypowered.ai/workflows/known-issues-list-update/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/hardware-and-physical-technology",
+    "industries/finance-and-investment"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/startups-and-new-ventures"
+  ],
+  "related": [
+    "support-ticket-triage",
+    "release-notes-draft",
+    "help-article-from-a-resolved-issue"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-12",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-12",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of customer support and service work, and its own method for drafting a known-issues entry from an engineering note and linked cases and checking open entries against a release's fixed items, written for this template."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "service-call-promises-list",
+  "name": "Follow-ups promised on service calls",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "After service calls, the contact-center team leader gets every follow-up the agent promised, each quoted from its transcript line, with the deadline as said, any condition, who owns it and the record that matches it. Nothing is booked, assigned or sent, and no customer is contacted.",
+  "directory": "https://fullypowered.ai/workflows/service-call-promises-list/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/insurance",
+    "industries/ecommerce-and-retail",
+    "industries/energy"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "stale-ticket-sweep",
+    "support-escalation-brief",
+    "account-commitments-check"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of customer support and service work, and its own method for listing the follow-ups promised on a service call: each promise quoted from its numbered transcript line, deadlines read by fixed rules from the call's date and time, conditions and owners as said, matching against exported follow-up records, and one question per gap for the team leader."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CALLE-AI/awesome-phone-call-agents",
+      "commit": "14ab8d21081ead9063a6af5f86804bc9cdafb626",
+      "path": "skills/call-agent-commitment-tracker/SKILL.md",
+      "licence": "MIT",
+      "contribution": "The method our template rewrote in its own words: sorting a promise by whether it states a deadline, states none or depends on the other party acting first; listing only the agent's own promises and never the customer's undertakings as the organization's; stating that a promise found on a call is not proof it was broken; and masking sensitive details in quoted evidence.",
+      "text_reused": false,
+      "notice": "notices/CALLE-AI-awesome-phone-call-agents-LICENSE.txt"
+    }
+  ]
+}

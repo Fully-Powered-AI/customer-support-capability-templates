@@ -1,0 +1,48 @@
+{
+  "id": "call-summary-transcript-check",
+  "name": "Call summary check against the transcript",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before anyone acts on the summary of a service call, your quality lead sees every amount, date, outcome and statement in it that the transcript does not back, each with the line and time to check, and what the summary left out. It changes no record; the reviewer decides what is corrected.",
+  "directory": "https://fullypowered.ai/workflows/call-summary-transcript-check/",
+  "primary_function": "functions/customer-support-and-service",
+  "functions": [
+    "functions/customer-support-and-service"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/insurance",
+    "industries/energy",
+    "industries/finance-and-investment"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "support-escalation-brief",
+    "complaint-and-refund-request-handling",
+    "account-commitments-check",
+    "service-call-promises-list"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-11",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-11",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own published map of customer support and service work, and its own method for checking one call's summary claim by claim against the transcript, written for this template."
+    }
+  ]
+}
